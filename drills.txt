@@ -35,6 +35,8 @@ Answer: index is 5
 
 Empty the array and add just 1 item: arr.push("tauhida");
 Print this 1 item that you just added. What is the result? Can you explain your result?
-Answer: NaN (data type looking for a number got a string?)
+Answer: NaN (data type looking for a number got a string, can allocate space but only can store data that is a number)
 
 What is the purpose of the _resize() function in your Array class?
+Answer: _resize() is a private function that should only be used within the array class
+_resize is to reallocate memory
